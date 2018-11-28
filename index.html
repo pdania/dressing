@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Princess dressing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script>
+        DragManager.onDragCancel = function(dragObject) {
+            dragObject.avatar.rollback();
+        };
+    </script>
+</head>
+<body>
+<div id="main">
+    <div id="clothes">
+        <img src="sprites/dress1png.png" alt="dress1" class="dresses">
+        <img src="sprites/dress2png.png" alt="dress2" class="dresses">
+        <img src="sprites/dress3png.png" alt="dress3" class="dresses" style="height: 90px; width: 90px;">
+        <img src="sprites/dress4png.png" alt="dress4" class="dresses">
+        <img src="sprites/dress5png.png" alt="dress5" class="dresses" style="height: 130px; width: 115px;">
+        <img src="sprites/dress6png.png" alt="dress6" class="dresses" style="height: 85px; width: 100px;">
+        <img src="sprites/umbrellapng.png" alt="umbrella" class="dresses" style="height: 130px; width: 130px;">
+        <img src="sprites/hatpng.png" alt="hat" class="dresses" style="height: 80px;">
+        <img src="sprites/jeans1png.png" alt="jeans" class="dresses" style="height: 110px; width: 80px;">
+        <img src="sprites/bird.png" alt="bird" class="dresses" style="height: 30px; width: 30px;">
+        <img src="sprites/rabbit.png" alt="bird" class="dresses" style="height: 60px; width: 50px;">
+    </div>
+    <div id="princess">
+        <img src="sprites/girl.jpg" alt="girl" class="girl" style="height: 270px; width: 120px">
+    </div>
+</div>
+</body>
+</html>
